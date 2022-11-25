@@ -9,8 +9,12 @@ const ContactComponent = ({contact}) => {
             Contacto:
             </h1>
             <h2>
-               Nombre: {contact.name} {contact.lastName}
+                Nombre: {contact.name} 
             </h2>
+            <h2>
+                Apellido: {contact.lastName}
+            </h2>
+
             <h2>
                 Email: {contact.email}
             </h2>
